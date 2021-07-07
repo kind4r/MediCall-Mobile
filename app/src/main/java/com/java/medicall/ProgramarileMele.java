@@ -1,0 +1,60 @@
+package com.java.medicall;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+
+import java.sql.SQLException;
+
+public class ProgramarileMele extends AppCompatActivity
+       {
+
+           RecyclerView recyclerView;
+           RecyclerView.LayoutManager layoutManager;
+           RecyclerView.Adapter adapter;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_programarile_mele);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
+
+
+        setContentView(R.layout.activity_programarile_mele);
+
+
+        Intent i=getIntent();
+        recyclerView=(RecyclerView) findViewById(R.id.recycler_view_programari);
+        layoutManager=new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setNestedScrollingEnabled(false);
+
+
+        try {
+
+            adapter=new RecyclerAdapterProgramari(this, i.getIntExtra("idCont",0),i.getStringArrayListExtra("orarProgramari") );
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        recyclerView.setAdapter(adapter);
+    }
+
+           @Override
+           public boolean onSupportNavigateUp() {
+               onBackPressed();
+               return true;
+           }
+
+
+
+
+
+
+}

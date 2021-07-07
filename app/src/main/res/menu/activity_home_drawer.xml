@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_locatii"
+            android:title="@string/locatii" />
+        <item
+            android:id="@+id/nav_programari"
+            android:title="@string/programarile_mele" />
+        <item
+            android:id="@+id/nav_setari"
+            android:title="@string/setarile_contului" />
+
+    </group>
+
+</menu>

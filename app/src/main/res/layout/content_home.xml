@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Home"
+    tools:showIn="@layout/app_bar_home">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView6"
+        android:layout_width="130dp"
+        android:layout_height="160dp"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="305dp"
+        app:cardBackgroundColor="@color/colorSky"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_conversion_absoluteHeight="177dp"
+        tools:layout_conversion_absoluteWidth="170dp">
+
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_height="156dp"
+
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp"
+            tools:layout_conversion_absoluteHeight="177dp"
+            tools:layout_conversion_absoluteWidth="170dp"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="125dp">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:layout_marginStart="10dp"
+
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="10dp"
+
+                android:src="@drawable/programari" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:padding="1dp"
+                android:text="@string/programare"
+                android:textColor="#156469"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="130dp"
+        android:id="@+id/cardView5"
+        android:layout_height="160dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@color/colorSky"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="6dp"
+        android:paddingLeft="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardView8"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView7"
+        app:layout_constraintVertical_bias="0.453"
+        tools:layout_conversion_absoluteHeight="177dp"
+        tools:layout_conversion_absoluteWidth="170dp">
+
+        <LinearLayout
+            android:layout_width="133dp"
+            android:layout_height="155dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp"
+            tools:layout_conversion_absoluteHeight="177dp"
+            tools:layout_conversion_absoluteWidth="170dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="322dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:layout_marginStart="10dp"
+
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="10dp"
+
+                android:src="@drawable/calendar_icon" />
+
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="1dp"
+                android:padding="4dp"
+                android:text="Programarile mele"
+                android:textColor="#156469"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView7"
+        android:layout_width="130dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="305dp"
+        android:paddingLeft="4dp"
+        app:cardBackgroundColor="@color/colorSky"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_conversion_absoluteHeight="177dp"
+        tools:layout_conversion_absoluteWidth="170dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp"
+            tools:layout_conversion_absoluteHeight="177dp"
+            tools:layout_conversion_absoluteWidth="170dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="125dp">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:layout_marginStart="10dp"
+
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="10dp"
+
+                android:src="@drawable/medic_icon" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:padding="2dp"
+                android:text="@string/medic"
+                android:textColor="#156469"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView8"
+        android:layout_width="130dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@color/colorSky"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView6"
+        app:layout_constraintVertical_bias="0.443"
+        tools:layout_conversion_absoluteHeight="177dp"
+        tools:layout_conversion_absoluteWidth="170dp">
+
+        <LinearLayout
+            android:layout_width="131dp"
+            android:layout_height="160dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="4dp"
+            tools:layout_conversion_absoluteHeight="177dp"
+            tools:layout_conversion_absoluteWidth="170dp"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="322dp">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/about_us" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:padding="2dp"
+                android:text="@string/despre_noi"
+                android:textColor="#156469"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</android.support.constraint.ConstraintLayout>

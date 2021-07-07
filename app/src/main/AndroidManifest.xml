@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.java.medicall">
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_pictogram"
+        android:label="MediCall Mobile"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.java.medicall.Home"
+            android:label="MediCall Mobile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.java.medicall.ProgramarileMele"
+            android:label="Programarile mele"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.java.medicall.DespreNoi"
+            android:label="Despre noi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.java.medicall.Logare"
+            android:label="@string/title_activity_logare"
+            android:theme="@style/AppTheme.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.java.medicall.CreareCont"
+            android:label="Creare cont"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.java.medicall.Medic"
+            android:label="@string/title_activity_medic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.java.medicall.Programare"
+            android:label="@string/title_activity_programare"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.java.medicall.DetaliiMedic"
+            android:label="Recenzii"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.java.medicall.Disponibilitate"
+            android:label="@string/title_activity_disponibilitate"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">MediCall</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Log in</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="analizele_mele">Analizele mele</string>
+    <string name="checked">TODO</string>
+    <string name="title_activity_dosar_analize">DosarAnalize</string>
+    <string name="title_activity_specializari">Specializari</string>
+    <string name="title_activity_educatie_medicala">EducatieMedicala</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">abcd</string>
+    <string name="button">Button</string>
+    <string name="medic">Medici</string>
+    <string name="locatii">Locatii</string>
+    <string name="dosar_de_analize">Dosar de analize</string>
+    <string name="log_in">Log in</string>
+    <string name="contul_meu">Contul meu</string>
+    <string name="educatie_medicala">Educatie medicala</string>
+    <string name="title_activity_locatii">Map</string>
+    <string name="specializari">Specializari</string>
+    <string name="despre_noi">Despre noi</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_setarile">setarile</string>
+    <string name="programarile_mele">Programarile mele</string>
+    <string name="setarile_contului">Setarile contului</string>
+    <string name="title_activity_logare">MediCall Mobile</string>
+    <string name="title_activity_creare_cont">CreareCont</string>
+    <string name="e_mail">E-mail</string>
+    <string name="repeta_parola">Repeta parola</string>
+    <string name="nume">Nume</string>
+    <string name="numar_de_telefon">Numar de telefon</string>
+    <string name="parola">Parola</string>
+    <string name="programare">Programari</string>
+    <string name="title_activity_medici">medici</string>
+    <string name="title_activity_medic">Medic</string>
+    <string name="nota">Acordati o nota:</string>
+    <string name="MedieTxt">Nota:</string>
+    <string name="title_activity_programare">Programare</string>
+    <string name="title_activity_detalii_medic">DetaliiMedic</string>
+    <string name="title_activity_disponibilitate">Disponibilitate</string>
+    <string name="descriere">MediCall este aplicatia ta pentru programari medicale.</string>
+
+</resources>
